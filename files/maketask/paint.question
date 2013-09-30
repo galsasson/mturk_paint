@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2005-10-01/QuestionForm.xsd">
+  <Question>
+    <QuestionIdentifier>answer</QuestionIdentifier>
+    <QuestionContent>
+      <Text>1. Accept this HIT</Text>
+      <Text>2. Open this web site:</Text>
+      <Text>   http://ec2-54-200-99-48.us-west-2.compute.amazonaws.com/?token=${token}</Text>
+      <Text>3. Follow the instructions there.</Text>
+      <Text>4. After completing the task you will receive a confirmation code, type it below.</Text>
+    </QuestionContent>
+    <AnswerSpecification>
+      <FreeTextAnswer/>
+    </AnswerSpecification>
+  </Question>
+</QuestionForm>

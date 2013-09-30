@@ -1,0 +1,10 @@
+
+
+sudo apt-get update
+sudo tasksel
+#select LAMP and press ENTER
+
+sudo apt-get install phpmyadmin
+
+sudo apt-get install openjdk-7-jdk
+
